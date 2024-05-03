@@ -4,17 +4,17 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "components/**/*"
-      - "docs/**/*"
-      - "public/**/*"
-      - ".github/workflows/design.yml"
+      - "src/**/*"
+      - "script/**/*"
+      - "package.json"
+      - ".github/workflows/reactive-graph-io.yml"
   pull_request:
     branches: [ main ]
     paths:
-      - "components/**/*"
-      - "docs/**/*"
-      - "public/**/*"
-      - ".github/workflows/design.yml"
+      - "src/**/*"
+      - "script/**/*"
+      - "package.json"
+      - ".github/workflows/reactive-graph-io.yml"
 
 jobs:
   publish:
