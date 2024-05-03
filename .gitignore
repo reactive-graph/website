@@ -1,5 +1,6 @@
 build
 dist
 .parcel-cache
+node_modules
 
 **/internal
