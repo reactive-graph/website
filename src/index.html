@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/svg+xml" href="../node_modules/@reactive-graph/design/build/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="../node_modules/@reactive-graph/design/build/favicon/favicon.png">
+<!--    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/reactive-graph.css">-->
+
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/open-props.min.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/open-props-normalize.min.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/open-props-buttons.min.css">
+
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/fonts/tabler-icons/tabler-icons.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/fonts/fira-code/fira-code.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/fonts/metropolis/metropolis.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/fonts/roboto/roboto.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/fonts/source-code-pro/source-code-pro.css">
+    <!--    @import "devicon/devicon.min.css";-->
+
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/variables/palette.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/variables/gradients.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/variables/surface.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/variables/patterns.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/variables/text.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/variables/brand.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/atoms/atoms.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/molecules/molecules.css">
+    <link rel="stylesheet" href="../node_modules/@reactive-graph/design/build/css/organisms/organisms.css">
+
+    <link rel="stylesheet" href="base.css">
+
+    <link rel="preload" href="../node_modules/@reactive-graph/design/build/reactive-graph-design_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm">
+    <link rel="modulepreload" href="../node_modules/@reactive-graph/design/build/reactive-graph-design.js" crossorigin="anonymous">
+
+    <title>Reactive Graph</title>
+</head>
+<body>
+    <main class="container">
+        <section class="rg-emphasis-box malachite">
+            <h3>Reactive Graph</h3>
+            <p class="intro">Reactive Graph is a reactive runtime based on a graph database.</p>
+            <p>Coming soon</p>
+        </section>
+        <section class="rg-emphasis-box chartreuse">
+            <h3>Tags</h3>
+            <p>
+                <rg-tag ty="component">Component</rg-tag>
+                <rg-tag ty="entity-type">Entity Type</rg-tag>
+                <rg-tag ty="relation-type">Relation Type</rg-tag>
+            </p>
+        </section>
+    </main>
+    <script type="module">
+      import init, * as bindings from "../node_modules/@reactive-graph/design/build/reactive-graph-design.js";
+      import fileName from 'url:../node_modules/@reactive-graph/design/build/reactive-graph-design_bg.wasm';
+      init(fileName)
+      window.wasmBindings = bindings;
+    </script>
+</body>
+</html>

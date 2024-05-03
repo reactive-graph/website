@@ -1,0 +1,49 @@
+{
+  "name": "@reactive-graph/website",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "The reactive graph contributors",
+  "homepage": "https://www.reactive-graph.io/",
+  "keywords": [
+    "reactive-programming",
+    "graph-database"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactive-graph/design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reactive-graph/design/issues"
+  },
+  "engines": {
+    "node": ">=18",
+    "parcel": "2.x"
+  },
+  "packageManager": "pnpm@9.0.6",
+  "source": "src/index.html",
+  "targets": {
+      "default": {
+        "distDir": "./build"
+      }
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
+  },
+  "namers": [
+    "parcel-namer-without-hash"
+  ],
+  "scripts": {
+    "dev": "./scripts/dist.sh; parcel",
+    "build": "./scripts/build.sh; parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "parcel-namer-without-hash": "latest"
+  },
+  "dependencies": {
+    "@reactive-graph/design": "^0.1.1"
+  }
+}

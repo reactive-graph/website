@@ -1,0 +1,36 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: var(--font-lineheight-4);
+}
+
+a {
+    color: var(--link);
+
+    &:hover {
+        color: var(--link-hover);
+    }
+
+    &:visited {
+        color: var(--link-visited);
+    }
+}
+
+h1 {
+    color: var(--brand);
+}
+
+code {
+    font-family: var(--font-code);
+}
+
+.container {
+    width: min(100% - 2rem, 50rem);
+    margin-inline: auto;
+}
