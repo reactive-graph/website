@@ -1,2 +1,2 @@
 let e;const n="undefined"!=typeof TextDecoder?new TextDecoder("utf-8",{ignoreBOM:!0,fatal:!0}):{decode:()=>{throw Error("TextDecoder not available")}};"undefined"!=typeof TextDecoder&&n.decode();const o=Array(128).fill(void 0);o.push(void 0,null,!0,!1),o.length,("undefined"!=typeof TextEncoder?new TextEncoder("utf-8"):{encode:()=>{throw Error("TextEncoder not available")}}).encodeInto,"undefined"==typeof FinalizationRegistry||new FinalizationRegistry(n=>e.__wbg_basecomponent_free(n>>>0)),new URL("reactive-graph-design_bg.8a055e9a.wasm","file:"+__filename).toString();
-//# sourceMappingURL=reactive-graph-design.5d72b859.js.map
+//# sourceMappingURL=reactive-graph-design.27f3ef7f.js.map
