@@ -1,6 +1,7 @@
 import "../node_modules/@reactive-graph/design/build/css/reactive-graph.css";
 import "./base.css"
 import "./layout.css"
+import "./molecules.css"
 import _ from "underscore";
 
 const checkHeader = _.throttle(() => {

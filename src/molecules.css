@@ -1,0 +1,9 @@
+.hero {
+    margin-block: var(--size-13);
+}
+
+.hero-text {
+    font-family: var(--font-sans-thin);
+    font-size: var(--size-6);
+    color: var(--celestial-blue);
+}

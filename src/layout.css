@@ -43,6 +43,16 @@
     place-items: center;
 }
 
+.center-grid-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    align-items: center;
+    justify-content: space-around;
+    gap: var(--size-6);
+    margin-block-end: var(--size-10);
+}
+
 .content {
     margin-block: var(--gap);
 }

@@ -103,7 +103,7 @@ code {
 }
 
 section.content {
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 .container {
@@ -114,5 +114,5 @@ section.content {
 .logo-centered {
     display:block;
     margin-block: auto;
-    width: 300px;
+    width: 100%;
 }
