@@ -2,7 +2,7 @@ import "../node_modules/@reactive-graph/design/build/css/reactive-graph.css";
 import "./base.css"
 import "./layout.css"
 import "./molecules.css"
-import _ from "underscore";
+import _ from "../node_modules/underscore";
 
 const checkHeader = _.throttle(() => {
   // let scrollPosition = Math.round(window.scrollY);
